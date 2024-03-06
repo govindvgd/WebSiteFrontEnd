@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to my Web</title>
+    <style>
+        .navbar {
+            background-color: blanchedalmond;
+            border-color: rgb(0, 0, 0);
+            border-radius: 30px;
+        }
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+        .navbar li {
+            float: right;
+            list-style: none;
+            padding: 20px 10 px;
+            margin: 20px 10px;
+        }
+
+        .navbar li a:hover {
+            color: red;
+        }
+
+        .sea {
+            float: right;
+            padding: 20px 20px;
+        }
+
+        .navbar input {
+            border-radius: 9px;
+            padding: 2px 12px;
+
+        }
+
+        body {
+            /* background-image: url(Food1.jpg); */
+            /* background-repeat: no-repeat; */
+            background-size: cover;
+            background-color: rgb(231, 243, 249);
+            text-decoration: none;
+        }
+
+        .box {
+            position: relative;
+            border: 4px solid black;
+            background-color: #b8efcf;
+            margin-left: 150px;
+            margin-top: 50px;
+            padding: 20px;
+            width: 35%;
+            box-sizing: border-box;
+            display: inline-block;
+        }
+
+        .box:hover {
+            transform: scale(1.3);
+            transition-duration: 1s;
+        }
+
+        .box3 {
+            position: relative;
+            border: 4px solid black;
+            background-color: #b8efcf;
+            margin-left: 32%;
+            margin-top: 50px;
+            padding: 20px;
+            width: 35%;
+            box-sizing: border-box;
+            display: inline-block;
+        }
+
+        .box3:hover {
+            transform: scale(1.3);
+            transition-duration: 1s;
+        }
+
+
+        .heading {
+            text-decoration-color: blanchedalmond;
+        }
+
+        .sidebar {
+
+            position: absolute;
+            top: 240px;
+            height: 100vh;
+            left: 0;
+            width: 40px;
+            background-color: rgb(244, 205, 205);
+            overflow: hidden;
+
+        }
+
+        .logo {
+            text-align: left;
+            display: flex;
+            transition: all 0.5s ease;
+            margin: 0px 0 0 0px;
+
+        }
+
+        .logo img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+        }
+
+        .logo span {
+            font-weight: bold;
+            padding-left: 15px;
+            font-size: 18px;
+            text-transform: uppercase;
+            list-style: none;
+
+
+        }
+
+
+
+        .fas {
+            position: relative;
+            width: 70px;
+            height: 40px;
+            top: 14px;
+            font-size: 30px;
+            text-align: center;
+            list-style: none;
+
+
+        }
+
+        .nav-item {
+            position: relative;
+            top: 12px;
+        }
+
+        .sidebar:hover {
+            width: 150px;
+            transition: all 0.5s ease;
+        }
+
+        .sidebar li a:hover {
+            color: red;
+        }
+
+        .logout {
+            position: absolute;
+            bottom: 2%;
+        }
+
+        .Contact-Us {
+            position: relative;
+            border: 4px solid black;
+            background-color: #b8efcf;
+            margin-left: 150px;
+            margin-top: 150px;
+            padding: 20px;
+            width: auto;
+            height: auto;
+            box-sizing: border-box;
+            display: inline-block;
+        }
+
+        .Below-Box {
+
+            position: relative;
+            background-color: #000000;
+            padding: 5px 40px;
+            margin-top: 5%;
+            width: auto;
+            color: white;
+
+            /* display: inline-block; */
+        }
+
+        .Title {
+
+            width: 100%;
+            display: flex;
+            background-color: rgb(139, 139, 240);
+            border-radius: 30px;
+        }
+
+        .logo2 img {
+            position: relative;
+            border-radius: 50%;
+
+        }
+
+        .Title2 {
+            margin: auto;
+            color: #fbfbfb;
+        }
+
+        .c-logo img {
+            position:absolute ;
+            
+            
+            padding: 35px;
+            padding-top: 0px;
+        }
+    </style>
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body>
+
+    <header class="hd">
+        <div class="Title">
+            <a href="#" class="logo2">
+                <img src="fresh food logo.jpg" alt="Loading" width="100px" height="100px">
+            </a>
+
+            <a href="#" class="Title2">
+                <center>
+                    <h1><b><u>Food@YourBed</u></b></h1>
+                </center>
+            </a>
+        </div>
+
+
+
+
+        <nav class="navbar">
+            <ul>
+                <div class="sea">
+                    <input type="text" name="search" id="search" placeholder="Search for desired food">
+                </div>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="/displayProperty.html" target="_blank">Home</a></li>
+
+
+            </ul>
+        </nav>
+        <nav class="sidebar">
+            <ul type=none>
+                <li>
+                    <a href="#" class="logo">
+                        <img src="/fresh food logo.jpg" alt="Loading">
+
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="healthy"></i>
+                        <span class="nav-item">Healthy Food</span>
+                    </a>
+                </li>
+                <li><a href="#">
+                        <i class="fas fa-home"></i>
+                        <span class="nav-item">Home</span>
+                    </a></li>
+                <li><a href="#">
+                        <i class="fas fa-wallet"></i>
+                        <span class="nav-item">Wallet</span>
+                    </a></li>
+                <li><a href="#">
+                        <i class="fas fa-question-circle"></i>
+                        <span class="nav-item">Help</span>
+                    </a></li>
+                <li><a href="#">
+                        <i class="fas fa-job"></i>
+                        <span class="nav-item">Jobs</span>
+                    </a></li>
+                <li><a href="#" class="logout">
+                        <i class="fas fa-sign-out-alt"></i>
+                        <span class="nav-item">Logout</span>
+                    </a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <div class="box">
+        <h3 class="heading">For patients</h3>
+        <p>
+        <ul>
+            <li>
+                <a href="#">Use our diet Plan</a>
+                <p>We have set few diet with calories and according to the diseases.</p>
+            </li>
+            <li>
+                <a href="#">Make your own diet.</a>
+                <p>We will deliver custom diet.</p>
+            </li>
+        </ul>
+        </p>
+    </div>
+    <div class="box">
+        <h3 class="heading">For the people who have fast</h3>
+        <p>
+            <li>
+                <a href="#">Use our diet plan with calories.</a>
+                <p>Plan will show the calories that you need to sustain for the day.</p>
+            </li>
+            <li>
+                <a href="#">Right your custom demand</a>
+                <p>We can deliver custom food at your home.</p>
+            </li>
+        </p>
+    </div>
+    <div class="box3">
+        <h3 class="heading">Subscribe for home delivery</h3>
+        <p>
+            <li>
+                <a href="#">For patients</a>
+                <p>We can deliver at your home daily or hourly.</p>
+            </li>
+            <li>
+                <a href="#">For common diet</a>
+                <p>People who have fast.</p>
+                <p>People who are on diet.</p>
+                <p>People who go Gym.</p>
+            </li>
+        </p>
+    </div>
+
+
+
+    <!-- Contact Us Form -->
+    <div class="Contact-Us">
+        <img src="Delivery boy.png" alt="Loading" width="500" height="560">
+    </div>
+    <div class="Contact-Us">
+        <div class="c-logo">
+
+          <h1><b>Contact-Us</b>
+                <img src="Logo_NBG.png" alt="Loading" width="100px" height="100px">
+            </h1>
+        </div>
+        </ul>
+        <form action="backend.php"></form>
+        <div>
+            <label for="Myname"> Name: </label><br>
+            <input type=" text" id="Myname" name="Myname">
+        </div>
+        <br>
+        <div>
+            <label for="Address"> Address: </label><br>
+            <input type=" text" id="Address" name="Address">
+        </div>
+        <br>
+        <div>
+            <label for="Email"> Email: </label><br>
+            <input type=" email" id="Email" name="Email">
+        </div>
+        <br>
+        <div>
+            <label for="issue"> Issue: </label><br>
+            <textarea name="issue" id="issue" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            Would you like to receive notification ?<input type="checkbox" checked>
+        </div>
+
+        <br>
+        <div>
+            <input type="submit" value="Submit now">
+            <button type="reset" value="submit"> Reset </button>
+        </div>
+        <br>
+        <hr>
+        <hr>
+    </div>
+
+
+
+
+    <!-- Below Box -->
+    <div class="Below-Box">
+        <h3>About Us</h3>
+        <h3>Home</h3>
+        <h3>How we are providing services</h3>
+        <h3>Contact Us</h3>
+        <h3>Help us by donating</h3>
+
+
+    </div>
+
+
+</body>
+
+</html>
